@@ -1,13 +1,15 @@
 # datos1x1
 
 ###Nombres y perfiles de los involucradas en el proyecto 
-Cintia Duran  
-Alejandra 
+[Cintia Duran](https://github.com/cintiadu)  
+[Ali G](https://github.com/ponentesincausa)
+
+[Julio Gontor](https://github.com/juliogontor)
 
 ###Organizaciones aliadas 
-Generador Proyectos Fotográficos
+[Generador Proyectos Fotográficos](http://generador.mx/)
 
-Proyecto 1x1 
+[Proyecto 1x1](http://proyecto1x1.com/) 
 
 ###Problemática que quiere atacar. 
 No existe una base de datos organizada para temas culturales. En este caso nos enfocamos a una lista de fotógrafos de Latinoamérica, sin embargo si logramos organizar y hacer público el desarrollo de nuestra plataforma, podría ser usada por cualquier institución en el desarrollo y organización  de gremios y proyectos culturales en el país. 
