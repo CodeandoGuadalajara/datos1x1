@@ -6,6 +6,7 @@ Alejandra
 
 ###Organizaciones aliadas 
 Generador Proyectos Fotográficos
+
 Proyecto 1x1 
 
 ###Problemática que quiere atacar. 
