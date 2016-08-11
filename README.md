@@ -1,10 +1,10 @@
 # datos1x1
 
-###Nombres y perfiles de los involucradas en el proyecto (con link a github)
-Cintia Duran 
+###Nombres y perfiles de los involucradas en el proyecto 
+Cintia Duran  
 Alejandra 
 
-###Organizaciones aliadas (si las hay)
+###Organizaciones aliadas 
 Generador Proyectos Fotográficos
 Proyecto 1x1 
 
