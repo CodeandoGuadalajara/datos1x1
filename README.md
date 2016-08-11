@@ -3,7 +3,6 @@
 ###Nombres y perfiles de los involucradas en el proyecto 
 [Cintia Duran](https://github.com/cintiadu)  
 [Ali G](https://github.com/ponentesincausa)
-
 [Julio Gontor](https://github.com/juliogontor)
 
 ###Organizaciones aliadas 
