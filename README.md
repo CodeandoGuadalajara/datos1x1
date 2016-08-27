@@ -1,9 +1,10 @@
 # datos1x1
 
 ###Nombres y perfiles de los involucradas en el proyecto 
-[Cintia Duran](https://github.com/cintiadu)  
-[Ali G](https://github.com/ponentesincausa)  
-[Julio Gontor](https://github.com/juliogontor)
+[Cintia Duran](https://github.com/cintiadu)  Líder temático, product owner
+[Ali G](https://github.com/ponentesincausa)  Dev
+[Julio Gontor](https://github.com/juliogontor) Dev  
+[Gerardo Esquivel](https://github.com/gerardroide) Product Owner, Admin de producción
 
 ###Organizaciones aliadas 
 [Generador Proyectos Fotográficos](http://generador.mx/)
