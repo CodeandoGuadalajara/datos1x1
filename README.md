@@ -25,3 +25,17 @@ Actualmente las instituciones públicas y privadas, al menos en México, no cuen
 La presentación organizada y libre de la base de datos de 1x1 puede colaborar tanto para consulta de instituciones, investigadores, empresas o estudiantes interesados en dicha temática. Pero al mismo tiempo la estructura propuesta por 1x1 podría sentar una premisa en el uso y organización de datos culturales en latinoamérica. 
 
 Si logramos que la base de datos de fotógrafos de latinoamérica, recopilada por 1x1 sea pública y visible,  podremos aportar una metodología para la organización de datos culturales en México y latinoamérica  
+
+## ¿Cómo me involucro?
+
+Date una vuelta por el roadmap que tenemos [en la wiki](https://github.com/CodeandoGuadalajara/datos1x1/wiki). Ahí encontrarás lo que queremos hacer, y el setup de la plataforma actual. También revisa nuestra lista de [issues](https://github.com/CodeandoGuadalajara/datos1x1/issues). Commiteamos el código de la plataforma en la branch testingali. Si quisieras contribuir con él, contáctanos para darte lo que necesitas.
+
+Este proyecto necesita:
+- Desarrolladores de wordpress para el entorno de test ([issue #15](https://github.com/CodeandoGuadalajara/datos1x1/issues/15))  
+- Personas que se animen a limpiar los datos 
+- Personas que se animen a construir un API
+- Personas que se animen a construir un front-end
+
+  
+Salvo la plataforma original que está en wordpress, no tenemos preferencia sobre qué tecnología utilizar. Estamos abiertos al talento que quieras traer al proyecto. :)
+
