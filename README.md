@@ -31,7 +31,7 @@ Si logramos que la base de datos de fotógrafos de latinoamérica, recopilada po
 Date una vuelta por el roadmap que tenemos [en la wiki](https://github.com/CodeandoGuadalajara/datos1x1/wiki). Ahí encontrarás lo que queremos hacer, y el setup de la plataforma actual. También revisa nuestra lista de [issues](https://github.com/CodeandoGuadalajara/datos1x1/issues). Commiteamos el código de la plataforma en la branch testingali. Si quisieras contribuir con él, contáctanos para darte lo que necesitas.
 
 Este proyecto necesita:
-- Desarrolladores de wordpress para el entorno de test ([issue #15](https://github.com/CodeandoGuadalajara/datos1x1/issues/15))  
+- Desarrolladores que agreguen los plugins para el campo de validación de ciudad ([issue 10](https://github.com/CodeandoGuadalajara/datos1x1/issues/10))
 - Personas que se animen a limpiar los datos 
 - Personas que se animen a construir un API
 - Personas que se animen a construir un front-end
