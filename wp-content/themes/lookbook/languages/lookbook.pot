@@ -1,0 +1,506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lookbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-26 22:09+0530\n"
+"PO-Revision-Date: 2014-02-26 22:09+0530\n"
+"Last-Translator: Chandra <maharzan@gmail.com>\n"
+"Language-Team: Graph Paper Press <info@graphpaperpress.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: archive.php:35
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:38
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:41
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:44
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:47
+msgid "Asides"
+msgstr ""
+
+#: archive.php:50
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:53
+msgid "Images"
+msgstr ""
+
+#: archive.php:56
+msgid "Videos"
+msgstr ""
+
+#: archive.php:59
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:62
+msgid "Links"
+msgstr ""
+
+#: archive.php:65
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:68
+msgid "Audios"
+msgstr ""
+
+#: archive.php:71
+msgid "Chats"
+msgstr ""
+
+#: archive.php:74
+msgid "Archives"
+msgstr ""
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+#: page-blog.php:73
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:28
+#: page-blog.php:77
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:18
+#: content-single.php:16
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23
+#: content-single.php:57
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:26
+#: content-single.php:29
+msgid ", "
+msgstr ""
+
+#: content-single.php:34
+#, php-format
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:36
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:42
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:44
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: footer.php:15
+msgid "Proudly powered by"
+msgstr ""
+
+#: footer.php:17
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:72
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:80
+msgid "Footer Center"
+msgstr ""
+
+#: functions.php:88
+msgid "Footer Right"
+msgstr ""
+
+#: header.php:40
+msgid "Lookbook"
+msgstr ""
+
+#: header.php:46
+msgid "Menu"
+msgstr ""
+
+#: header.php:47
+msgid "Skip to content"
+msgstr ""
+
+#: page-blog.php:58
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: page-blog.php:61
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: theme-options.php:11
+#: theme-options.php:15
+msgid "General"
+msgstr ""
+
+#: theme-options.php:25
+#: theme-options.php:29
+msgid "Style"
+msgstr ""
+
+#: theme-options.php:44
+msgid "Logo"
+msgstr ""
+
+#: theme-options.php:45
+msgid "Use a transparent png or jpg image"
+msgstr ""
+
+#: theme-options.php:55
+msgid "Favicon"
+msgstr ""
+
+#: theme-options.php:56
+msgid "Use a transparent png or ico image"
+msgstr ""
+
+#: theme-options.php:66
+msgid "Headline Font"
+msgstr ""
+
+#: theme-options.php:67
+#: theme-options.php:79
+msgid "<a href=\""
+msgstr ""
+
+#: theme-options.php:78
+msgid "Body Font"
+msgstr ""
+
+#: theme-options.php:90
+msgid "Blog Category"
+msgstr ""
+
+#: theme-options.php:91
+msgid "Select your blog category"
+msgstr ""
+
+#: theme-options.php:102
+msgid "Homepage/Gallery Grid"
+msgstr ""
+
+#: theme-options.php:103
+msgid "Select a homepage/gallery grid layout."
+msgstr ""
+
+#: theme-options.php:112
+msgid "Fixed Width (Vertical)"
+msgstr ""
+
+#: theme-options.php:116
+msgid "Fixed Height (Horizontal)"
+msgstr ""
+
+#: theme-options.php:123
+msgid "Custom CSS"
+msgstr ""
+
+#: theme-options.php:124
+msgid "Add some custom CSS to your theme."
+msgstr ""
+
+#: inc/extras.php:65
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:81
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:81
+#: inc/template-tags.php:104
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:91
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:94
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:102
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:139
+#, php-format
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+
+#: inc/lookbook/admin.php:34
+msgid "We created the"
+msgstr ""
+
+#: inc/lookbook/admin.php:35
+msgid "lookbook page"
+msgstr ""
+
+#: inc/lookbook/admin.php:36
+msgid "and assigned the lookbook page template."
+msgstr ""
+
+#: inc/lookbook/admin.php:81
+msgid "Export lookbookers"
+msgstr ""
+
+#: inc/lookbook/admin.php:104
+msgid "Export the lookbookers for this single item"
+msgstr ""
+
+#: inc/lookbook/admin.php:104
+msgid "Export Lookbookers"
+msgstr ""
+
+#: inc/lookbook/admin.php:223
+msgid "Detail"
+msgstr ""
+
+#: inc/lookbook/admin.php:259
+#: inc/lookbook/lookbook.php:475
+msgid "Email"
+msgstr ""
+
+#: inc/lookbook/admin.php:264
+msgid "Items Added"
+msgstr ""
+
+#: inc/lookbook/admin.php:298
+msgid "Phone Number"
+msgstr ""
+
+#: inc/lookbook/admin.php:299
+msgid "Address"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:172
+msgid "Downloaded!"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:173
+msgid "Saving..."
+msgstr ""
+
+#: inc/lookbook/lookbook.php:174
+#: inc/lookbook/lookbook.php:207
+msgid "Saved"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:212
+msgid "Save"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:240
+msgid "Email to friend"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:249
+msgid "Download as a PDF"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:471
+msgid "Please enter your name and email to download your Lookbook"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:474
+msgid "Name"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:476
+msgid "Download Lookbook"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:537
+msgid "Remove all"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:598
+msgid "Remove from lookbook"
+msgstr ""
+
+#: inc/lookbook/lookbook.php:604
+msgid "Your lookbook is empty"
+msgstr ""
+
+#: inc/lookbook/options.php:24
+msgid "Enable Lookbook"
+msgstr ""
+
+#: inc/lookbook/options.php:25
+msgid "If enabled select items will have the option for users to add the item to their Lookbook and download it as a PDF."
+msgstr ""
+
+#: inc/lookbook/options.php:34
+#: inc/lookbook/options.php:60
+msgid "Yes"
+msgstr ""
+
+#: inc/lookbook/options.php:38
+#: inc/lookbook/options.php:56
+msgid "No"
+msgstr ""
+
+#: inc/lookbook/options.php:46
+msgid "Require Email"
+msgstr ""
+
+#: inc/lookbook/options.php:47
+msgid "If email is required to download the user must add their name and email address, which will be saved as a Lookbook entry and can easily be exported as a CSV file."
+msgstr ""
+
+#: options/options.php:128
+#: options/options.php:131
+msgid "Theme Options"
+msgstr ""
+
+#: options/options.php:166
+msgid " settings updated successfully."
+msgstr ""
+
+#: options/options.php:177
+msgid "Save Settings"
+msgstr ""
+
+#: options/options.php:178
+msgid "Reset Defaults"
+msgstr ""
+
+#: options/options.php:371
+#: options/options.php:391
+#: options/options.php:410
+msgid "This option has no valid options. Please create valid options as an array inside the GPP Framework."
+msgstr ""
+
+#: options/options.php:493
+msgid "Upload or Select Image"
+msgstr ""
+
+#: options/options.php:494
+#: options/options.php:589
+msgid "Remove"
+msgstr ""
+
+#: options/options.php:588
+msgid "Upload or Select Images"
+msgstr ""
+
+#: options/options.php:684
+msgid "Version: "
+msgstr ""
+
+#: options/options.php:685
+msgid "Support"
+msgstr ""
+
+#: options/options.php:686
+msgid "Theme Instructions"
+msgstr ""
+
+#: options/options.php:686
+msgid "Instructions"
+msgstr ""
+
+#: options/options.php:698
+msgid "URL"
+msgstr ""
+
+#: options/library/helpers.php:15
+msgid "-- Choose One --"
+msgstr ""
+

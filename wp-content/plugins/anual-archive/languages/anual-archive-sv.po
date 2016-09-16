@@ -1,0 +1,304 @@
+# This file is distributed under the same license as the Annual Archive package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Annual Archive 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/anarch\n"
+"POT-Creation-Date: 2014-06-20 16:56:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-08-24 01:09+0100\n"
+"Last-Translator: P. E.\n"
+"Language-Team: P. E.\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv_SE\n"
+"X-Generator: Poedit 1.6.7\n"
+
+#: annual_archive.php:117 annual_archive.php:293
+msgid "Select Year"
+msgstr "Välj år"
+
+#: annual_archive.php:119 annual_archive.php:295
+msgid "Select Month"
+msgstr "Välj månad"
+
+#: annual_archive.php:122 annual_archive.php:298
+msgid "Select Week"
+msgstr "Välj vecka"
+
+#: annual_archive.php:125 annual_archive.php:301
+msgid "Select Day"
+msgstr "Välj dag"
+
+#: annual_archive.php:128 annual_archive.php:304
+msgid "Select Post"
+msgstr "Välj inlägg"
+
+#: annual_archive.php:143
+msgid "Settings"
+msgstr "Inställningar"
+
+#: annual_archive.php:152
+msgid "really tied the room together"
+msgstr "knöt verkligen ihop rummet"
+
+#: annual_archive.php:153
+msgid "made you feel all warm and fuzzy on the inside"
+msgstr "fick dig att känna dig alldeles varm och mysig inombords"
+
+#: annual_archive.php:154
+msgid "restored your faith in humanity... even if only for a fleeting second"
+msgstr "återställde din tro på mänskligheten... om endast för en kort sekund"
+
+#: annual_archive.php:155
+msgid "rocked your world"
+msgstr "skakade om din värld"
+
+#: annual_archive.php:156
+msgid "inspired you to commit a random act of kindness"
+msgstr "inspirerade dig att slumpmässigt utföra en vänskaplig gest"
+
+#: annual_archive.php:157
+msgid "encouraged more regular flossing of the teeth"
+msgstr "uppmuntrade till mer regelbunden användning av tandtråd"
+
+#: annual_archive.php:158
+msgid "helped organize your life in the small ways that matter"
+msgstr ""
+"hjälpte dig att organisera ditt liv på de små men betydelsefulla sätten"
+
+#: annual_archive.php:159
+msgid "saved your minutes--if not tens of minutes--writing your own solution"
+msgstr ""
+"sparade dig minuter--om inte tiotalet minuter--för att du slapp skapa en "
+"egen lösning"
+
+#: annual_archive.php:160
+msgid "brightened your day... or darkened if if you are trying to sleep in"
+msgstr "lyste upp din dag... eller förmörkade den, om du försöker sjusova"
+
+#: annual_archive.php:161
+msgid "caused you to dance a little jig of joy and joyousness"
+msgstr "fick dig att dansa en liten lustfylld glädjedans"
+
+#: annual_archive.php:162
+msgid "inspired you to tweet a little @twinpictues social love"
+msgstr "inspirerade dig att tweeta lite @twinpictures social kärlek"
+
+#: annual_archive.php:163
+msgid "tasted great, while also being less filling"
+msgstr "smakade utmärkt, utan att göra dig däst"
+
+#: annual_archive.php:164
+msgid "caused you to shout: \"everybody spread love, give me some mo!\""
+msgstr "fick dig att skrika: \"sprid kärlek, ge mig lite mo!\""
+
+#: annual_archive.php:165
+msgid "helped you keep the funk alive"
+msgstr "hjälpte dig hålla funken levande"
+
+#: annual_archive.php:166
+msgid ""
+"<a href=\"http://www.youtube.com/watch?v=dvQ28F5fOdU\" target=\"_blank"
+"\">soften hands while you do dishes</a>"
+msgstr ""
+"<a href=\"http://www.youtube.com/watch?v=dvQ28F5fOdU\" target=\"_blank"
+"\">mjuka upp händerna medans du diskar</a>"
+
+#: annual_archive.php:167
+msgid ""
+"helped that little old lady <a href=\"http://www.youtube.com/watch?"
+"v=Ug75diEyiA0\" target=\"_blank\">find the beef</a>"
+msgstr ""
+"hjälpte den gamla damen att <a href=\"http://www.youtube.com/watch?"
+"v=Ug75diEyiA0\" target=\"_blank\">hitta biffarna</a>"
+
+#: annual_archive.php:179 annual_archive.php:218
+msgid "Click to toggle"
+msgstr "Klicka för att växla"
+
+#: annual_archive.php:180
+msgid "Annual Archive Settings"
+msgstr "Annual Archive Inställningar"
+
+#: annual_archive.php:192
+msgid "Custom Style"
+msgstr "Anpassad stil"
+
+#: annual_archive.php:194
+msgid "Custom CSS style for <em>ultimate flexibility</em>"
+msgstr "Anpassad CSS-stil för <em>fulländad flexibilitet</em>"
+
+#: annual_archive.php:199
+msgid "Level Up!"
+msgstr "Nästa Nivå!"
+
+#: annual_archive.php:200
+msgid ""
+"%sArchive-Pro-Matic%s is our advanced plugin that adds the ability to "
+"display archives by <strong>post type</strong> or <strong>category</strong>."
+msgstr ""
+"%sArchive-Pro-Matic%s är vår avancerade plugin som lägger till möjligheten "
+"att visa arkiv efter <strong>posttyp</strong> eller <strong>kategori</"
+"strong>."
+
+#: annual_archive.php:208
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: annual_archive.php:219
+msgid "About"
+msgstr "Om"
+
+#: annual_archive.php:221
+msgid "Version"
+msgstr "Version"
+
+#: annual_archive.php:222
+msgid ""
+"Annual Archive widget extends the default WordPress Archive widget to allow "
+"daily, weekly, monthly, yearly, postbypost and alpha archives to be "
+"displayed.  Archives can be displyed in the sidebar using a widget&mdash;and "
+"even placed in a post or page by using a shortcode. A %scomplete listing of "
+"shortcode options and attribute demos%s are available, as well as %sfree, "
+"open-source community support%s. The Annual Archive widget&mdash;A better "
+"archive widget.  Yup, that is pretty much it.  Oh, one more thing: The "
+"plugin can be translated into any language using our %scommunity translation "
+"tool%s. Ok, that is really it."
+msgstr ""
+"Annual Archive-widgeten utökar Wordpress standard arkiv-widget genom att "
+"tillåta att dagliga, veckoliga, månatliga, årliga, post-för-post samt "
+"alfabetiska arkiv visas. Arkiv kan visas i sidofältet med hjälp av en "
+"widget&mdash;och kan t.o.m. visas i en post eller på en sida med hjälp av en "
+"kortkod. En %skomplett lista över kortkoder och demonstrationer av "
+"kortkodsattribut%s finns tillgänglig, såväl som %sgratis support från "
+"communityt för öppen källkod%s. Widgeten för Årligt Arkiv&mdash;En bättre "
+"arkivwidget. Japp, det var så gott som allt. Eller förresten, en sak till: "
+"Insticksprogrammet kan översättas till vilket språk som helst med hjälp av "
+"vårt %söversättningsverktyg för communityt%s. Ok, nu var det verkligen allt."
+
+#: annual_archive.php:225
+msgid ""
+"%sDetailed documentation%s, complete with working demonstrations of all "
+"shortcode attributes, is available for your instructional enjoyment."
+msgstr ""
+"%sDetaljerad dokumentation%s med fungerade demonstrationer av alla "
+"kortkodsattribut finns tillgänglig för ditt lärandes skull."
+
+#: annual_archive.php:227
+msgid "If this plugin %s, please consider %ssharing your story%s with others."
+msgstr ""
+"Om detta insticksprogram %s, var god överväg att %sdela din upplevelse%s med "
+"andra."
+
+#: annual_archive.php:228
+msgid ""
+"Your %sreviews%s, %sbug-reports, feedback%s and %scocktail recipes%s are "
+"always welcomed."
+msgstr ""
+"Dina %srecensioner%s, %sbuggrapporter, åsikter%s samt %sdrinkrecept%s är "
+"alltid välkomna."
+
+#: annual_archive.php:271
+msgid ""
+"Display daily, weekly, monthly or annual archives with a sidebar widget or "
+"shortcode"
+msgstr ""
+"Visa dagliga, veckoliga, månatliga eller årliga arkiv med en sidofältswidget "
+"eller en kortkod"
+
+#: annual_archive.php:272 annual_archive.php:285
+msgid "Annual Archive"
+msgstr "Annual Archive"
+
+#: annual_archive.php:338
+msgid "Title:"
+msgstr "Titel:"
+
+#: annual_archive.php:339
+msgid "Show post counts"
+msgstr "Visa antal inlägg"
+
+#: annual_archive.php:340
+msgid "Archive type:"
+msgstr "Arkivtyp:"
+
+#: annual_archive.php:343
+msgid "Daily"
+msgstr "Dagligt"
+
+#: annual_archive.php:344
+msgid "Weekly"
+msgstr "Veckoligt"
+
+#: annual_archive.php:345
+msgid "Monthly"
+msgstr "Månatligt"
+
+#: annual_archive.php:346
+msgid "Yearly"
+msgstr "Årligt"
+
+#: annual_archive.php:347
+msgid "Post By Post"
+msgstr "Inlägg För Inlägg"
+
+#: annual_archive.php:348
+msgid "Alpha"
+msgstr "Alfabetiskt"
+
+#: annual_archive.php:361
+msgid "Format:"
+msgstr "Format:"
+
+#: annual_archive.php:364
+msgid "HTML"
+msgstr "HTML"
+
+#: annual_archive.php:365
+msgid "Option"
+msgstr "Val"
+
+#: annual_archive.php:366
+msgid "Link"
+msgstr "Länk"
+
+#: annual_archive.php:367
+msgid "Custom"
+msgstr "Anpassat"
+
+#: annual_archive.php:378
+msgid "Format details"
+msgstr "Detaljer för format"
+
+#: annual_archive.php:380
+msgid "Text Before Link:"
+msgstr "Text Före Länk:"
+
+#: annual_archive.php:381
+msgid "Text After Link:"
+msgstr "Text Efter Länk:"
+
+#: annual_archive.php:382
+msgid "Number of archives to display:"
+msgstr "Antal arkiv att visa:"
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.twinpictures.de/plugins/annual-archive/"
+msgstr "http://plugins.twinpictures.de/plugins/annual-archive/"
+
+#. Description of the plugin/theme
+msgid ""
+"Display daily, weekly, monthly, yearly, postbypost and alpha archives with a "
+"sidebar widget or shortcode."
+msgstr ""
+"Visa dagliga, veckoliga, månatliga, årliga, post-för-post och alfabetiska "
+"arkiv med en sidofältswidget eller en kortkod."
+
+#. Author of the plugin/theme
+msgid "Twinpictures"
+msgstr "Twinpictures"
+
+#. Author URI of the plugin/theme
+msgid "http://www.twinpictures.de/"
+msgstr "http://www.twinpictures.de/"

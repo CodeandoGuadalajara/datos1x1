@@ -1,0 +1,142 @@
+<style type="text/css">
+.map-in-gray {
+  opacity: .8;
+
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  -ms-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.map-in-gray:hover {
+  opacity: 1;
+}
+
+.leaflet-control {
+    display: none;
+}
+
+#CF7MapFieldDiv {
+    border-top: 1px solid #202020;
+    height: 360px;
+    width: 100%;
+}
+</style>
+
+
+<link id="cf7-map-field-leaflet-css" rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.css" />
+<!--[if lte IE 8]>
+<link id="cf7-map-field-leaflet-ie-css" rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" />
+<![endif]-->
+<script id="cf7-map-field-leaflet-js" src="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.js"></script>
+<div style="position:relative">
+   <div id="CF7MapFieldDiv" class="map-in-gray"></div>
+   <span style="position:absolute;right:0px;bottom:20px;font: 1em; background-color: rgba(255, 255, 255, 0.698);padding:2px 7px;z-index: 1000;" >
+		Ubicación: <span id="CF7MapMarkerAt">ninguna ubicación</span>
+	</span>
+</div>
+<div id="CF7MapGeolocationDiv">
+    <a href="javascript:void(0)" onclick="onFindMeClick()">Buscar mi ubicación</a>
+	<span onmouseout="GeolocationHelpOut()" onmouseover="GeolocationHelpOver()" style="cursor:help;font-size:70%; vertical-align:top;font-weight:bold;position:relative">
+		?
+		<span id="CF7MapGeolocationHelp" style="visibility:hidden; border-radius:4px; font:.7em; position:absolute; bottom:15px;left:-10px;width:340px;background-color:tomato;padding:7px;z-index:1000">
+            Si usas esta opción, trataremos de encontrar tu ubicación geográfica en el mundo real mediante el uso de geolocalización, el navegador te pedirá permiso para proceder, al aceptar el mapa centrará la ubicación sugerida.
+		</span>
+	</span>
+	&nbsp;&nbsp;
+	<span id="CF7MapGeoLocationInfo"></span>
+</div>
+<script>
+var map;
+var marker;
+var geolocationCirc;
+function GeolocationHelpOver() {
+	document.getElementById('CF7MapGeolocationHelp').style.visibility = "visible";
+}
+function GeolocationHelpOut() {
+	document.getElementById('CF7MapGeolocationHelp').style.visibility = "hidden";
+}
+function updateMarkerPosition(e) {
+    var markerLatLang = [e.lat.toFixed(6), e.lng.toFixed(6)].join(',');
+    document.getElementById('CF7MapMarkerAt').innerHTML = markerLatLang;
+    var hidd = document.getElementById('CF7MapLocationHidden');
+    var val = [map.getZoom(), markerLatLang].join(';');
+    if (!!hidd) { hidd.value = val; }
+}
+function removeGeoLocationCirc() {
+    document.getElementById('CF7MapGeoLocationInfo').innerHTML = "";
+    if (!!geolocationCirc) {map.removeLayer(geolocationCirc); }
+}
+function onLocationFound(e) {
+    document.getElementById('CF7MapGeoLocationInfo').innerHTML = "Estás en algún lugar cerca de aquí";
+    map.setView(new L.LatLng(e.latlng.lat, e.latlng.lng), 8);
+    var radius = e.accuracy / 2;
+    geolocationCirc = L.circle(e.latlng, radius, {weight: 1, clickable: false});
+    map.addLayer(geolocationCirc);
+    marker.setLatLng([e.latlng.lat, e.latlng.lng]);
+    updateMarkerPosition(marker.getLatLng());
+}
+function onLocationError(e) {
+    document.getElementById('CF7MapGeoLocationInfo').innerHTML = "No pudimos determinar tu ubicación";
+}
+function onMarkerDrag(e) {
+    removeGeoLocationCirc();
+    updateMarkerPosition(marker.getLatLng());
+}
+function onMapClick(e) {
+	if (marker === undefined) {
+		var markerIcon = L.icon({
+			iconUrl: 'http://cdn.leafletjs.com/leaflet-0.4.4/images/marker-icon.png',
+			shadowUrl: 'http://cdn.leafletjs.com/leaflet-0.4.4/images/marker-shadow.png',
+			iconSize: [25, 41],
+			iconAnchor: [13, 41],
+			shadowSize: [41, 41],
+			shadowAnchor: [15, 41]
+		});
+		marker = L.marker(e.latlng, {
+			icon: markerIcon,
+			draggable: true
+		}).addTo(map);
+		marker.on('drag', onMarkerDrag);
+	} else {
+		marker.setLatLng([e.latlng.lat, e.latlng.lng]);
+	}
+    removeGeoLocationCirc();
+    updateMarkerPosition(e.latlng);
+}
+function initmap() {
+    // set up the map
+
+    map = new L.Map('CF7MapFieldDiv');
+    // create the tile layer with correct attribution
+    var mapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var mapAttrib = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>';
+    var mapTile = new L.TileLayer(mapUrl, {
+        minZoom: 3,
+        maxZoom: 12,
+        attribution: mapAttrib
+    });
+    map.addLayer(mapTile);
+
+    map.setView(new L.LatLng(19.4326077,-99.133208), 4);
+    // add events
+    map.on('click', onMapClick);
+	map.on('locationerror', onLocationError);
+	map.on('locationfound', onLocationFound);
+}
+function onFindMeClick() {
+    // geo locate
+    removeGeoLocationCirc();
+    document.getElementById('CF7MapGeoLocationInfo').innerHTML = "Buscando...";
+    map.locate();
+}
+initmap();
+</script>

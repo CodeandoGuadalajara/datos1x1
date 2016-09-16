@@ -1,0 +1,9 @@
+[28-May-2013 03:32:48 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/proyecto/public_html/wp-content/themes/unoporuno/header.php on line 106
+[28-May-2013 03:33:37 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/proyecto/public_html/wp-content/themes/unoporuno/header.php on line 106
+[28-May-2013 03:33:46 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/proyecto/public_html/wp-content/themes/unoporuno/header.php on line 106
+[28-May-2013 04:28:32 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/proyecto/public_html/wp-content/themes/unoporuno/header.php on line 107
+[28-May-2013 05:37:52 UTC] PHP Parse error:  syntax error, unexpected '[', expecting T_VARIABLE or '$' in /home/proyecto/public_html/wp-content/themes/unoporuno/functions.php on line 11
+[28-May-2013 05:39:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/proyecto/public_html/wp-content/themes/unoporuno/functions.php on line 4
+[28-May-2013 05:39:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/proyecto/public_html/wp-content/themes/unoporuno/functions.php on line 4
+[28-May-2013 21:00:03 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/proyecto/public_html/wp-content/themes/unoporuno/header.php on line 130
+[28-May-2013 21:00:15 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/proyecto/public_html/wp-content/themes/unoporuno/header.php on line 130

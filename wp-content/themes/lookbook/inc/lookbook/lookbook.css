@@ -1,0 +1,125 @@
+#gpp_lookbook_submit:disabled{
+    opacity: 0.5;
+    }
+
+#gpp_lookbook_form input[type="text"]{
+    margin-left: 5px;
+    }
+
+#gpp_lookbook_form .gpp-lookbook-description {
+    margin-bottom: 10px;
+    }
+
+.gpp-lookbook-remove-all {
+    float: left;
+    margin-bottom: 10px;
+    }
+
+.gpp-lookbook-remove {
+    position: absolute;
+    background: #F00;
+    padding: 2px 5px 0;
+    left: 0;
+    z-index: 999;
+    }
+
+.gpp-lookbook-remove .genericon {
+    color: #FFF;
+    line-height: 25px;
+    }
+
+.gpp-lookbook-link {
+    margin-left: 10px;
+    }
+
+.gpp-lookbook .gpp-lookbook-grid {
+    position:relative;
+    background:#2d2d2d;
+    }
+
+.gpp-lookbook-grid .gpp-lookbook-item-details-inner {
+    width:100%;
+    text-align:center;
+    float:left;
+    height:100%;
+    }
+
+.gpp-lookbook .gpp-lookbook-grid img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    }
+
+.gpp-lookbook .gpp-lookbook-grid h3 {
+    width:100%;
+    opacity:0;
+    font-size:1.8em;
+    margin-bottom:1em;
+    line-height:1em;
+    }
+
+.has-sidebar .gpp-lookbook .gpp-lookbook-grid h3 {
+    font-size:1.5em;
+    }
+
+.gpp-lookbook .gpp-lookbook-grid h3 a {
+    color:#f3f3f3;
+    }
+
+.gpp-lookbook .gpp-lookbook-grid span.view-overlay {
+    bottom:35%;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    display: none;
+    left: 0;
+    }
+
+.gpp-lookbook .page-header span,
+.gpp-lookbook .page-header a {
+    float:left;
+    }
+
+/* Grids - 3 columns */
+.third {
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 30%;
+    float: left;
+    position:relative;
+    }
+
+.third:nth-child(3n+0) {
+    margin-right: 0;
+    }
+
+.third:nth-child(3n+1) {
+    clear: left;
+    }
+
+/* Grids - full-page width, don't clear, show in row */
+.one .third {
+    width: 15%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    }
+
+.one .third:nth-child(3n+1) {
+    clear: none;
+    }
+
+.one .third:nth-child(6) {
+    margin-right: 0;
+    }
+
+/* =Responsiveness: Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+    .gpp-lookbook .gpp-lookbook-grid {
+        width:100%;
+        margin-right:0;
+        }
+    }

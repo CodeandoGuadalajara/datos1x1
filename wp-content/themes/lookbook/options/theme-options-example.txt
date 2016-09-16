@@ -1,0 +1,336 @@
+<?php
+/**
+ * Define the Tabs appearing on the Theme Options page
+ * Tabs contains sections
+ * Options are assigned to both Tabs and Sections
+ * See README.md for a full list of option types
+ */
+
+$general_settings_tab = array(
+    "name" => "general_tab",
+    "title" => __( "General", "gpp" ),
+    "sections" => array(
+        "general_section_1" => array(
+            "name" => "general_section_1",
+            "title" => __( "General", "gpp" ),
+            "description" => __( "", "gpp" )
+        )
+    )
+);
+
+gpp_register_theme_option_tab( $general_settings_tab );
+
+$colors_tab = array(
+    "name" => "colors_tab",
+    "title" => __( "Colors", "gpp" ),
+    "sections" => array(
+        "colors_section_1" => array(
+            "name" => "colors_section_1",
+            "title" => __( "Colors", "gpp" ),
+            "description" => __( "", "gpp" )
+        )
+    )
+);
+
+gpp_register_theme_option_tab( $colors_tab );
+
+$slideshow_tab = array(
+    "name" => "slideshow_tab",
+    "title" => __( "Slideshow", "gpp" ),
+    "sections" => array(
+        "slideshow_section_1" => array(
+            "name" => "slideshow_section_1",
+            "title" => __( "Slideshow", "gpp" ),
+            "description" => __( "", "gpp" )
+        )
+    )
+);
+
+gpp_register_theme_option_tab( $slideshow_tab );
+
+// Default order of the sections in the particular tab
+$block_order = explode( ",", '1,2,3,4,5');
+$block_array = array(
+
+    1 => array(
+        "order" => "1",
+        "title" => "Portfolio",
+        "icon" => "grid"
+        ),
+    2 => array(
+        "order" => "2",
+        "title" => "About",
+        "icon" => "text"
+        ),
+    3 => array(
+        "order" => "3",
+        "title" => "Contact",
+        "icon" => "text"
+        ),
+    4 => array(
+        "order" => "4",
+        "title" => "Blog",
+        "icon" => "text"
+        ),
+    5 => array(
+        "order" => "5",
+        "title" => "Sell Media",
+        "icon" => "gridh"
+        )
+);
+
+// Order from the database
+$theme_options = get_option( gpp_get_current_theme_id() . "_options" );
+if ( ! empty( $theme_options['section_order'] ) ) {
+    $block_order =  explode( ",", $theme_options['section_order'] );
+}
+
+// Section for order setting which stays at the top of all other sortable sections which holds section order hidden field.
+$section_array = array(
+        "homepage_section_0" => array(
+            "name" => "homepage_section_0",
+            "title" => __( "Sortable Sections", "gpp" ),
+            "description" => ""
+        )
+    );
+
+// Arrange the sections according to saved order
+foreach ( $block_order as $value ) {
+    $section_array[ "homepage_section_" . ( $value ) ] = array(
+        "name" => "homepage_section_" . ( $block_array[$value]['order'] ),
+        "title" => $block_array[$value]['title'],
+        "description" => "",
+        "icon" => $block_array[$value]['icon']
+    );
+}
+
+// Tab holding the sorting sections
+$homepage_tab = array(
+    "name" => "homepage_tab",
+    "title" => __( "Homepage", "gpp" ),
+    "sections" => $section_array
+);
+
+gpp_register_theme_option_tab( $homepage_tab );
+
+
+ /**
+ * The following example shows you how to register theme options and assign them to tabs and sections:
+*/
+$options = array(
+    'logo' => array(
+        "tab" => "general_tab",
+        "name" => "logo",
+        "title" => __( "Logo", "gpp" ),
+        "description" => __( "Use a transparent png or jpg image", "gpp" ),
+        "section" => "general_section_1",
+        "since" => "1.0",
+        "id" => "general_section_1",
+        "type" => "image",
+        "default" => ""
+    ),
+    'favicon' => array(
+        "tab" => "general_tab",
+        "name" => "favicon",
+        "title" => __( "Favicon", "gpp" ),
+        "description" => __( "Use a transparent png or ico image", "gpp" ),
+        "section" => "general_section_1",
+        "since" => "1.0",
+        "id" => "general_section_1",
+        "type" => "image",
+        "default" => ""
+    ),
+    'font' => array(
+        "tab" => "general_tab",
+        "name" => "font",
+        "title" => __( "Headline Font", "gpp" ),
+        "description" => __( '<a href="' . get_option('siteurl') . '/wp-admin/admin-ajax.php?action=fonts&font=header&height=600&width=640" class="thickbox">Preview and choose a font</a>', "gpp" ),
+        "section" => "general_section_1",
+        "since" => "1.0",
+        "id" => "general_section_1",
+        "type" => "select",
+        "default" => "Allan:400,700",
+        "valid_options" => gpp_font_array()
+    ),
+    'font_alt' => array(
+        "tab" => "general_tab",
+        "name" => "font_alt",
+        "title" => __( "Body Font", "gpp" ),
+        "description" => __( '<a href="' . get_option('siteurl') . '/wp-admin/admin-ajax.php?action=fonts&font=body&height=600&width=640" class="thickbox">Preview and choose a font</a>', "gpp" ),
+        "section" => "general_section_1",
+        "since" => "1.0",
+        "id" => "general_section_1",
+        "type" => "select",
+        "default" => "Allan:400,700",
+        "valid_options" => gpp_font_array()
+    ),
+    'categories' => array(
+        "tab" => "general_tab",
+        "name" => "categories",
+        "title" => __( "Blog Category", "gpp" ),
+        "description" => __( 'Select your blog category', "gpp" ),
+        "section" => "general_section_1",
+        "since" => "1.0",
+        "id" => "general_section_1",
+        "type" => "checkbox",
+        "default" => array("uncategorized"),
+        "valid_options" => gpp_get_taxonomy_list()
+    ),
+    'color' => array(
+        "tab" => "colors_tab",
+        "name" => "color",
+        "title" => __( "Color", "gpp" ),
+        "description" => __( "Select a color palette", "gpp" ),
+        "section" => "colors_section_1",
+        "since" => "1.0",
+        "id" => "colors_section_1",
+        "type" => "select",
+        "default" => "light",
+        "valid_options" => array(
+            "light" => array(
+                "name" => "light",
+                "title" => __( "Light", "gpp" )
+            ),
+            "dark" => array(
+                "name" => "dark",
+                "title" => __( "Dark", "gpp" )
+            )
+        )
+    ),
+    "css" => array(
+        "tab" => "colors_tab",
+        "name" => "css",
+        "title" => __( "Custom CSS", "gpp" ),
+        "description" => __( "Add some custom CSS to your theme.", "gpp" ),
+        "section" => "colors_section_1",
+        "since" => "1.0",
+        "id" => "colors_section_1",
+        "type" => "textarea",
+        "sanitize" => "html",
+        "default" => ""
+    ),
+    "homepage_slideshow" => array(
+        "tab" => "slideshow_tab",
+        "name" => "homepage_slideshow",
+        "title" => __( "Slideshow", "gpp" ),
+        "description" => __( "Select or create a gallery of images to use in the homepage slide show.", "business" ),
+        "section" => "slideshow_section_1",
+        "since" => "1.0",
+        "id" => "slideshow_section_1",
+        "type" => "gallery",
+        "default" => ""
+    ),
+    // hidden field holding the section order
+    'section_order' => array(
+        "tab" => "homepage_tab",
+        "name" => "section_order",
+        "title" => "",
+        "description" => __( 'Stores the order of the sections', "gpp" ),
+        "section" => "homepage_section_0",
+        "since" => "1.0",
+        "id" => "homepage_section_0",
+        "type" => "hidden",
+        "default" => "1,2,3,4,5,6",
+        "sanitize" => "html"
+    ),
+    'feature_category' => array(
+        "tab" => "homepage_tab",
+        "name" => "feature_category",
+        "title" => __( "Featured", "gpp" ),
+        "description" => __( 'Select your feature category', "gpp" ),
+        "section" => "homepage_section_1",
+        "since" => "1.0",
+        "id" => "homepage_section_1",
+        "type" => "select",
+        "default" => "",
+        "valid_options" => gpp_get_taxonomy_list( 'category', true )
+    ),
+    'list_category' => array(
+        "tab" => "homepage_tab",
+        "name" => "list_category",
+        "title" => __( "Staggered List", "gpp" ),
+        "description" => __( 'Select your list category', "gpp" ),
+        "section" => "homepage_section_2",
+        "since" => "1.0",
+        "id" => "homepage_section_2",
+        "type" => "select",
+        "default" => "",
+        "valid_options" => gpp_get_taxonomy_list( 'category', true )
+    ),
+    'portfolio_category' => array(
+        "tab" => "homepage_tab",
+        "name" => "portfolio_category",
+        "title" => __( "Portfolio", "gpp" ),
+        "description" => __( 'Select your portfolio category', "gpp" ),
+        "section" => "homepage_section_3",
+        "since" => "1.0",
+        "id" => "homepage_section_3",
+        "type" => "select",
+        "default" => "",
+        "valid_options" => gpp_get_taxonomy_list( 'category', true )
+    ),
+    'clients_category' => array(
+        "tab" => "homepage_tab",
+        "name" => "clients_category",
+        "title" => __( "Clients", "gpp" ),
+        "description" => __( 'Select your client category', "gpp" ),
+        "section" => "homepage_section_4",
+        "since" => "1.0",
+        "id" => "homepage_section_4",
+        "type" => "select",
+        "default" => "",
+        "valid_options" => gpp_get_taxonomy_list( 'category', true )
+    ),
+    'team_category' => array(
+        "tab" => "homepage_tab",
+        "name" => "team_category",
+        "title" => __( "Team", "gpp" ),
+        "description" => __( 'Select your team category', "gpp" ),
+        "section" => "homepage_section_5",
+        "since" => "1.0",
+        "id" => "homepage_section_5",
+        "type" => "select",
+        "default" => "",
+        "valid_options" => gpp_get_taxonomy_list( 'category', true )
+    ),
+    'callout_text' => array(
+        "tab" => "homepage_tab",
+        "name" => "callout_text",
+        "title" => __( "Callout Text", "gpp" ),
+        "description" => __( 'Add text for your homepage callout', "gpp" ),
+        "section" => "homepage_section_6",
+        "since" => "1.0",
+        "id" => "homepage_section_6",
+        "type" => "textarea",
+        "default" => "",
+        "sanitize" => "html"
+    ),
+    'callout_link_text' => array(
+        "tab" => "homepage_tab",
+        "name" => "callout_link_text",
+        "title" => __( "Link Text", "gpp" ),
+        "description" => __( 'Add an optional link for the callout', "gpp" ),
+        "section" => "homepage_section_6",
+        "since" => "1.0",
+        "id" => "homepage_section_6",
+        "type" => "text",
+        "default" => "",
+        "sanitize" => "html"
+    ),
+    'callout_link' => array(
+        "tab" => "homepage_tab",
+        "name" => "callout_link",
+        "title" => __( "Link", "gpp" ),
+        "description" => __( 'Add an optional link for the callout', "gpp" ),
+        "section" => "homepage_section_6",
+        "since" => "1.0",
+        "id" => "homepage_section_6",
+        "type" => "text",
+        "default" => "",
+        "sanitize" => "html"
+    )
+);
+
+gpp_register_theme_options( $options );
+
+?>

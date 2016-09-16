@@ -1,0 +1,80 @@
+# Translation of Anual Archive in German
+# This file is distributed under the same license as the Anual Archive package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2012-10-04 11:28+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.3\n"
+"Project-Id-Version: Annual Archive 1.2\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Baden Coleman <baden@twinpictures.de>\n"
+"Language-Team: Twinpictures <info@twinpictures>\n"
+"Language: German\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "http://plugins.twinpictures.de/plugins/annual-archive-widget/"
+msgstr "http://plugins.twinpictures.de/plugins/annual-archive-widget/"
+
+msgid ""
+"Display daily, weekly, monthly or annual archives with a sidebar widget or "
+"shortcode."
+msgstr ""
+"Anzeige tägliche, wöchentliche, monatliche oder jährliche Archive mit einer "
+"Sidebar Widget oder Shortcode."
+
+msgid "Twinpictures"
+msgstr "Twinpictures"
+
+msgid "http://www.twinpictures.de/"
+msgstr "http://www.twinpictures.de/"
+
+#: archive_by_year.php:34
+msgid "Display weekly, monthly or yearly post archives."
+msgstr "Anzeige wöchentlich, monatlich oder jährlich Artikel Archiven."
+
+#: archive_by_year.php:35 archive_by_year.php:45
+msgid "Annual Archive"
+msgstr "Annual Archiv"
+
+#: archive_by_year.php:52 archive_by_year.php:143
+msgid "Select Year"
+msgstr "Jahr auswählen"
+
+#: archive_by_year.php:54 archive_by_year.php:145
+msgid "Select Month"
+msgstr "Monat auswählen"
+
+#: archive_by_year.php:57 archive_by_year.php:148
+msgid "Select Week"
+msgstr "Woche auswählen"
+
+#: archive_by_year.php:60 archive_by_year.php:151
+msgid "Select Day"
+msgstr "Tag auswählen"
+
+#: archive_by_year.php:63 archive_by_year.php:154
+msgid "Select Post"
+msgstr "Artikel auswählen"
+
+#: archive_by_year.php:98
+msgid "Title:"
+msgstr "Titel:"
+
+#: archive_by_year.php:100
+msgid "Show post counts"
+msgstr "Anzeige Artikel Zählung"
+
+#: archive_by_year.php:102
+msgid "Display as a drop down"
+msgstr "Anzeige als Drop-Down"
+
+#: archive_by_year.php:104
+msgid "Archive type:"
+msgstr "Archivtyp:"
+
+#: archive_by_year.php:124
+msgid "Limit results to:"
+msgstr "Ergebnisse beschränken auf:"

@@ -1,0 +1,21 @@
+== Changelog ==
+
+= Version 1.0.5 (June 26, 2014) =
+    * Front page added
+    * Lookbook pdf orientaton changed to landscape
+
+= Version 1.0.4 (June 23, 2014) =
+    * Blank pages in pdf fix
+
+= Version 1.0.3 (May 22, 2014) =
+    * Integration with Sell Media 1.9.4
+
+= Version 1.0.2 (May 9, 2014) =
+	* Static frontpage issue fix
+
+= Version 1.0.1 (March 30, 2014) =
+	* Static page collapse bug fix
+	* Touchscreen gallery bug fix
+
+= Version 1.0 (March 17, 2014) =
+	* Initial release

@@ -1,0 +1,252 @@
+# Copyright (C) 2014 Annual Archive
+# This file is distributed under the same license as the Annual Archive package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Annual Archive 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/anarch\n"
+"POT-Creation-Date: 2014-06-20 16:56:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: annual_archive.php:117 annual_archive.php:293
+msgid "Select Year"
+msgstr ""
+
+#: annual_archive.php:119 annual_archive.php:295
+msgid "Select Month"
+msgstr ""
+
+#: annual_archive.php:122 annual_archive.php:298
+msgid "Select Week"
+msgstr ""
+
+#: annual_archive.php:125 annual_archive.php:301
+msgid "Select Day"
+msgstr ""
+
+#: annual_archive.php:128 annual_archive.php:304
+msgid "Select Post"
+msgstr ""
+
+#: annual_archive.php:143
+msgid "Settings"
+msgstr ""
+
+#: annual_archive.php:152
+msgid "really tied the room together"
+msgstr ""
+
+#: annual_archive.php:153
+msgid "made you feel all warm and fuzzy on the inside"
+msgstr ""
+
+#: annual_archive.php:154
+msgid "restored your faith in humanity... even if only for a fleeting second"
+msgstr ""
+
+#: annual_archive.php:155
+msgid "rocked your world"
+msgstr ""
+
+#: annual_archive.php:156
+msgid "inspired you to commit a random act of kindness"
+msgstr ""
+
+#: annual_archive.php:157
+msgid "encouraged more regular flossing of the teeth"
+msgstr ""
+
+#: annual_archive.php:158
+msgid "helped organize your life in the small ways that matter"
+msgstr ""
+
+#: annual_archive.php:159
+msgid "saved your minutes--if not tens of minutes--writing your own solution"
+msgstr ""
+
+#: annual_archive.php:160
+msgid "brightened your day... or darkened if if you are trying to sleep in"
+msgstr ""
+
+#: annual_archive.php:161
+msgid "caused you to dance a little jig of joy and joyousness"
+msgstr ""
+
+#: annual_archive.php:162
+msgid "inspired you to tweet a little @twinpictues social love"
+msgstr ""
+
+#: annual_archive.php:163
+msgid "tasted great, while also being less filling"
+msgstr ""
+
+#: annual_archive.php:164
+msgid "caused you to shout: \"everybody spread love, give me some mo!\""
+msgstr ""
+
+#: annual_archive.php:165
+msgid "helped you keep the funk alive"
+msgstr ""
+
+#: annual_archive.php:166
+msgid "<a href=\"http://www.youtube.com/watch?v=dvQ28F5fOdU\" target=\"_blank\">soften hands while you do dishes</a>"
+msgstr ""
+
+#: annual_archive.php:167
+msgid "helped that little old lady <a href=\"http://www.youtube.com/watch?v=Ug75diEyiA0\" target=\"_blank\">find the beef</a>"
+msgstr ""
+
+#: annual_archive.php:179 annual_archive.php:218
+msgid "Click to toggle"
+msgstr ""
+
+#: annual_archive.php:180
+msgid "Annual Archive Settings"
+msgstr ""
+
+#: annual_archive.php:192
+msgid "Custom Style"
+msgstr ""
+
+#: annual_archive.php:194
+msgid "Custom CSS style for <em>ultimate flexibility</em>"
+msgstr ""
+
+#: annual_archive.php:199
+msgid "Level Up!"
+msgstr ""
+
+#: annual_archive.php:200
+msgid "%sArchive-Pro-Matic%s is our advanced plugin that adds the ability to display archives by <strong>post type</strong> or <strong>category</strong>."
+msgstr ""
+
+#: annual_archive.php:208
+msgid "Save Changes"
+msgstr ""
+
+#: annual_archive.php:219
+msgid "About"
+msgstr ""
+
+#: annual_archive.php:221
+msgid "Version"
+msgstr ""
+
+#: annual_archive.php:222
+msgid "Annual Archive widget extends the default WordPress Archive widget to allow daily, weekly, monthly, yearly, postbypost and alpha archives to be displayed.  Archives can be displyed in the sidebar using a widget&mdash;and even placed in a post or page by using a shortcode. A %scomplete listing of shortcode options and attribute demos%s are available, as well as %sfree, open-source community support%s. The Annual Archive widget&mdash;A better archive widget.  Yup, that is pretty much it.  Oh, one more thing: The plugin can be translated into any language using our %scommunity translation tool%s. Ok, that is really it."
+msgstr ""
+
+#: annual_archive.php:225
+msgid "%sDetailed documentation%s, complete with working demonstrations of all shortcode attributes, is available for your instructional enjoyment."
+msgstr ""
+
+#: annual_archive.php:227
+msgid "If this plugin %s, please consider %ssharing your story%s with others."
+msgstr ""
+
+#: annual_archive.php:228
+msgid "Your %sreviews%s, %sbug-reports, feedback%s and %scocktail recipes%s are always welcomed."
+msgstr ""
+
+#: annual_archive.php:271
+msgid "Display daily, weekly, monthly or annual archives with a sidebar widget or shortcode"
+msgstr ""
+
+#: annual_archive.php:272 annual_archive.php:285
+msgid "Annual Archive"
+msgstr ""
+
+#: annual_archive.php:338
+msgid "Title:"
+msgstr ""
+
+#: annual_archive.php:339
+msgid "Show post counts"
+msgstr ""
+
+#: annual_archive.php:340
+msgid "Archive type:"
+msgstr ""
+
+#: annual_archive.php:343
+msgid "Daily"
+msgstr ""
+
+#: annual_archive.php:344
+msgid "Weekly"
+msgstr ""
+
+#: annual_archive.php:345
+msgid "Monthly"
+msgstr ""
+
+#: annual_archive.php:346
+msgid "Yearly"
+msgstr ""
+
+#: annual_archive.php:347
+msgid "Post By Post"
+msgstr ""
+
+#: annual_archive.php:348
+msgid "Alpha"
+msgstr ""
+
+#: annual_archive.php:361
+msgid "Format:"
+msgstr ""
+
+#: annual_archive.php:364
+msgid "HTML"
+msgstr ""
+
+#: annual_archive.php:365
+msgid "Option"
+msgstr ""
+
+#: annual_archive.php:366
+msgid "Link"
+msgstr ""
+
+#: annual_archive.php:367
+msgid "Custom"
+msgstr ""
+
+#: annual_archive.php:378
+msgid "Format details"
+msgstr ""
+
+#: annual_archive.php:380
+msgid "Text Before Link:"
+msgstr ""
+
+#: annual_archive.php:381
+msgid "Text After Link:"
+msgstr ""
+
+#: annual_archive.php:382
+msgid "Number of archives to display:"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Annual Archive"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.twinpictures.de/plugins/annual-archive/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display daily, weekly, monthly, yearly, postbypost and alpha archives with a sidebar widget or shortcode."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Twinpictures"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.twinpictures.de/"
+msgstr ""
